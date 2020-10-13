@@ -106,11 +106,15 @@ img {
 
 figcaption {
   font-size: .875rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 1rem;
 }
 
-
+section {
+  font-size: .875rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1rem;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
