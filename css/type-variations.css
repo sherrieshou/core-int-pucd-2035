@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Lora', serif;
+  font-family: 'Tangerine', serif;
   background-color: #fff;
 }
 
@@ -60,7 +60,7 @@ main {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Lora', serif;
+  font-family: 'Tangerine', serif;
   margin-bottom:1rem;
 }
 
@@ -84,7 +84,7 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'Tangerine', serif;
   line-height: 1.5;
   padding: .5rem 0;
 }
@@ -98,14 +98,14 @@ p {
 
 .location {
   font-size: 1rem;
-  font-family: 'Lora', serif;
+  font-family: 'Tangerine', serif;
   text-transform: uppercase;
   line-height: 1.5;
 }
 
 .pull-quote {
   font-size: 2.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'Tangerine', serif;
   line-height: 1.5;
   font-weight:400;
   padding:2rem;
@@ -118,6 +118,6 @@ img {
 
 figcaption {
   font-size: .875rem;
-  font-family: 'Lora', serif;
+  font-family: 'Tangerine', serif;
   padding-top: 1rem;
 }
