@@ -1,7 +1,112 @@
 html {
-  color: #222;
+
+    color: #222;
+	font-family:'Literata Light', serif;
+	font-size: 1rem;
+    line-height: 1.5;
+    background-color:#778899;
+}
+head {
+  padding:5rem 0;
+  color:#E6E6FA;
+}
+
+body {
+  padding:6rem 0;
+  color:#E6E6FA;
+}
+
+a: hover{
+   text-decoration: none;
+   color:#FFF0F5;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  grid-auto-rows:min-content;
+  grid-gap: 3rem;
+  width:40vw;
+  margin:0 auto;
+}
+
+.intro-block{
+  grid-column: 1 / 2;
+}
+
+.image{
+  grid-column: 1 / 2;
+}
+
+.statement{
+  grid-column: 3 / 4;
+}
+
+.projects{
+  grid-column: 1 / 4;
+}
+
+
+h1,h2,h3,h4,h5{
+  font-family: 'Literata Light', serif;
+  margin-bottom: 1rem;
+}
+h1 {
+  color:#E6E6FA;
+  text-align: center;
+  font-family:'Literata Light', serif;
+  font-size:4rem;
+  font-weight:800;
+}
+h2{
+  color:#FFF0F5;
+  text-align: left;
+  font-family:'Literata Light', serif;
+  font-size:2rem;
+  font-weight:600;
+}
+h3 {
+  font-size:1.5rem;
+  font-weight:300;
+
+}
+h4 {
+  font-size:1rem;
+}
+
+li {
+  font-size: 1.25rem;
+  font-family: 'Literata Light', serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom:1rem;
+}
+
+.location {
   font-size: 1rem;
-  line-height: 1.4;
-  font-family: :'Montserrat', sans-serif;
-  background-color:#BCE2F9;
+  font-family: 'Literata Light', serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1rem;
+}
+
+section {
+  font-size: .875rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1rem;
 }
