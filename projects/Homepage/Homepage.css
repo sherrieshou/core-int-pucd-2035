@@ -6,6 +6,7 @@ html {
 	font-size: 1rem;
     line-height: 1.5;
     background-color:#778899;
+    cursor: url(cursor.png),pointer;
 }
 head {
   padding:5rem 0;
