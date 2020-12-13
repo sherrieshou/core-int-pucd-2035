@@ -1,5 +1,5 @@
 html {
-	font-size: 10rem;
+	font-size: 3rem;
     background-color:#696969;
 
 }
@@ -9,21 +9,115 @@ head {
 }
 
 body{
+    position: absolute;
+        justify-content: center;
+
 	padding:.01rem 0;
 	text-align:center;
-	font-family: 'Oswald', sans-serif;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    
+	font-family: 'Rubik Mono One', sans-serif;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-auto-rows:min-content;
     width:100vw;
     margin:0 auto;
-    color:#FFFAFA;
+    color:white;
 }
 
-.first, .second, .third, .fourth, .Fifth{
+h1{
+ margin-bottom: 1rem;
+}
+
+.first{
 	grid-column: 2 / 3;
     text-transform: uppercase;
 }
 
+.box{
+    border: 50px white;
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+
+}
 
 
+
+.item1{
+    width: 150px;
+    height: 51px;    
+    background-color: white;
+    position: absolute;
+    top:77px;
+    left: 80px;
+    bottom: 2rem;
+    justify-content: center;
+}
+
+.item2{
+     width: 70px;
+    height: 51.5px;  
+    background-color: white;
+    position: absolute;
+    top:226px;
+    left: 79px;
+    bottom: 2rem;
+        justify-content: center;
+}
+
+.item3{
+     width: 90px;
+    height: 51.5px;  
+    background-color: white;
+    position: absolute;
+    top:226px;
+    left: 280px;
+    bottom: 2rem;
+        justify-content: center;
+}
+
+.item4{
+     width: 70px;
+    height: 51px;  
+    background-color: white;
+    position: absolute;
+    top:376.5px;
+    left: 79px;
+    bottom: 2rem;
+        justify-content: center;
+}
+
+.item5{
+     width: 90px;
+    height: 51px;  
+    background-color: white;
+    position: absolute;
+    top:376.5px;
+    left: 280px;
+    bottom: 2rem;
+        justify-content: center;
+}
+
+.item6{
+    width: 120px;
+    height: 50.5px;    
+    background-color: white;
+    position: absolute;
+    top:526.5px;
+    left: 250px;
+    bottom: 2rem;
+    justify-content: center;
+}
+
+.item7{
+     width: 70px;
+    height: 51px;  
+    background-color: white;
+    position: absolute;
+    top:676px;
+    left: 79px;
+    bottom: 2rem;
+        justify-content: center;
+}
