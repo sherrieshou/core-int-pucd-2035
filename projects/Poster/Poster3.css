@@ -1,0 +1,186 @@
+html {
+	font-size: 3rem;
+    background-color:#696969;
+
+}
+head {
+  padding:2rem 0;
+  color:#E6E6FA;
+}
+
+body{
+	padding:.01rem 0;
+	text-align:center;
+    top:0px;
+    left: 0px;
+    right: 0px;
+	font-family: 'Rubik Mono One', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-rows:min-content;
+    width:100vw;
+    margin:0 auto;
+    color:white;
+}
+
+h1{
+ margin-bottom: 1rem;
+}
+
+.type{
+ top:77px;
+    left: 80px;
+    bottom: 2rem;
+}
+
+
+.first{
+	grid-column: 2 / 3;
+    text-transform: uppercase;
+         position: absolute;
+         top:77px;
+         left: 75px;
+    animation-name: typeanime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes typeanime{
+    0%{
+    opacity: 100%}
+    50%{
+    opacity:0%;}
+    100%{
+    opacity: 100%}
+
+}
+.box{
+    transition: 
+    border: 50px white;
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+
+}
+
+
+
+.item1{
+    width: 100px;
+    height: 51px;    
+    background-color: white;
+    top:153px;
+    bottom: 2rem;
+    position: relative;
+    animation-name: box1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes box1{
+    0%{
+    left: 40px;}
+    50%{
+    left: 280px;}
+    100%{
+    left: 40px;}
+
+}
+
+.item2{
+     width: 70px;
+    height: 51px;  
+    background-color: white;
+    position: relative;
+    top:252px;
+    bottom: 2rem;
+    animation-name: box2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes box2{
+0%{left: 60px;}
+50%{left: 265px;}
+100%{left: 60px;}
+
+}
+
+.item3{
+     width: 70px;
+    height: 51px;  
+    background-color: white;
+    position: relative;
+    top:201px;
+    bottom: 2rem;
+    animation-name: box3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes box3{
+0%{left: 265px;}
+50%{left: 60px;}
+100%{left: 265px;}
+}
+
+.item4{
+     width: 70px;
+    height: 51px;  
+    background-color: white;
+    position: relative;
+    top:299.5px;
+    bottom: 2rem;
+    animation-name: box4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes box4{
+0%{left: 60px;}
+50%{left: 265px;}
+100%{left: 60px;}
+}
+
+
+
+.item5{
+     width: 70px;
+    height: 51px;  
+    background-color: white;
+    position: relative;
+    top:248.5px;
+    bottom: 2rem;
+    animation-name: box5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+    @keyframes box5{
+0%{left: 265px;}
+50%{left: 60px;}
+100%{left: 265px;}
+}
+
+.item6{
+    width: 100px;
+    height: 51px;    
+    background-color: white;
+    position: relative;
+    top:347px;
+    bottom: 2rem;
+    animation-name: box6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+@keyframes box6{
+   0%{
+    left: 40px;}
+    50%{
+    left: 280px;}
+    100%{
+    left: 40px;}
+}
+
+
