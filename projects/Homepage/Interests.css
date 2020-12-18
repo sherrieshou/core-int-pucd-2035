@@ -38,7 +38,7 @@ main{
 }
 
 .grid {
-  align-items: right;
+  align-items: top;
 
 }
 
@@ -64,10 +64,6 @@ max-width: 400px;
   grid-row: 1 / 2;
 }
 
-.links{
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
 
 
 h1,h2,h3,h4,h5{
